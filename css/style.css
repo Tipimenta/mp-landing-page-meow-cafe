@@ -12,16 +12,17 @@ body{
 }
 
 header{
-    width: 1188px;
+    width: 1128px;
     height: 530px;
-    margin: 0 auto;
+    background-color: #8b0707;
+    margin: auto;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1188px;
+    width: 1128px;
     height: 130px;
   
 }
@@ -114,16 +115,15 @@ ul li a{
     line-height: 157%;
     font-weight: 400;
     width: 352px;
-
 }
 
 
 .header-image img{
     width: 614px;
     height: 530px;
-    position: absolute;
-    top: 0;
-    right: 315px;
+    position: relative;
+    top: -130px;
+    right: 55px;
   
 }
 
@@ -176,7 +176,6 @@ ul li a{
     
 }
 
-
 .card-drink{
    width: 323.65px;
    height: 468.15px;
@@ -184,6 +183,27 @@ ul li a{
    border: none;
    margin-right: 70px;
    padding: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.card-drink img{
+    height: 250px;
+}
+
+.btn-secundary{
+    margin-top: 16px;
+    background-color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    width: 265px;
+    height: 45px;
+    border-radius: 36px;
+    border: none;
+    color: #8b0707;
+    padding: 12px 32px;
 }
 
 .price {
@@ -214,3 +234,94 @@ ul li a{
     background: linear-gradient(45deg, #541511, #0A0909);
 }
 
+
+
+.croissants{
+    margin: auto;
+    width: 1174px;
+    height: 449px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-croissants{
+    width: 493.17px;
+    height: 315.36px;
+}
+
+.text-croissants a{
+    color: #3C0E0E;
+    font-size: 16px;
+    font-weight: 600;
+    font-weight: 157%;
+    margin-bottom: 16px;
+}
+.price-croissants{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9C4C4;
+    width: 110px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 25px;
+    margin-bottom: 12px;
+}
+
+h2{
+    font-size: 80px;
+    color: #4D1D1D;
+}
+
+.subtitle{
+    color: #3C0E0E;
+    font-size: 40px;
+}
+
+.desc-croissants{
+    color: #3C0E0E;
+    font-size: 16px;
+    width: 307.57px;
+}
+
+.your-house{
+    width: 1115px;
+    height: 427px;
+    margin: auto;
+}
+
+.your-house img{
+    position: relative;
+    top: -40px;
+    width: 589.87px;
+    height: 379.14px;
+}
+
+.retangulo{
+    width: 1115px;
+    height: 368.73px;
+    border-radius: 48px;
+    background: linear-gradient(#F3C7C4, #541511);
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-house {
+    text-align: right;
+    margin-right: 30px;
+}
+
+.text-house p:first-child{
+    font-size: 48px;
+    color: #FFF;
+    font-weight: bold;
+    margin-top: 72px;
+    margin-bottom: 30px;
+}
+
+.desc-house{
+    font-size: 16px;
+    color: #FFF;
+    margin-bottom: 43px;
+}
