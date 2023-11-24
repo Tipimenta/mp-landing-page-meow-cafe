@@ -17,6 +17,10 @@ header{
     margin: auto;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -328,6 +332,135 @@ h2{
     width: 1700px;
     height: 750px;
     margin: 0 auto;
-    display: flex;
     background-image: url("../../img/Background.png");
+    position: relative;
+    top: -160px;
+    left: 40px;
+}
+
+.container-sobre{
+    width: 938px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 260px;
+    left: 20%;
+}
+
+.title-sobre{
+    font-size: 20px;
+    color: #4D1D1D;
+    font-weight: bold;
+}
+
+.cafe-pet{
+    font-size: 48px;
+    color: #4D1D1D;
+    font-weight: bold;
+    width: 449px;
+}
+
+.text-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.apreciar{
+    font-size: 16px;
+    color: #4D1D1D;
+    font-weight: bold;
+}
+
+.desc-pet, .desc-pet2{
+    font-size: 16px;
+    color: #3C0E0E;
+    width: 338px;
+}
+
+.retangulo-contato{
+    width: 1117px;
+    height: 457.94px;
+    border-radius: 48px;
+    background: linear-gradient(#541511, #F3C7C4);
+    display: flex;
+    padding: 52px 40px;
+    margin: auto;
+}
+
+.left-contato{
+    width: 320px;
+    height: 373.35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left-contato h2{
+    color: #FFF;
+    font-size: 80px;
+    line-height: 104.5%;
+    font-weight: bold;
+}
+
+.left-contato h3{
+    color: #FFF;
+    font-size: 20px;
+    
+}
+
+.left-contato p{
+    font-size: 16px;
+    color: #FFF;
+}
+
+.left-contato a{
+    color: #3C0E0E;
+    font-size: 16px;
+    font-weight: 600; 
+    margin-bottom: 16px;
+}
+
+.coffe{
+    width: 631.88px;
+    height: 562.56px;
+    position: relative;
+    top: -130px;
+    right: 40px;
+    z-index: 99;
+}
+
+.right-contato{
+    width: 373.89px;
+    height: 457.94px;
+    border-radius: 0 48px 48px 0;
+    background: linear-gradient(#8F423D, #FFFFFF);
+    position: relative;
+    top: -52px;
+    right: 172px;
+
+}
+
+.right-contato-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 373.89px;
+    height: 279px;
+    padding: 25px;
+}
+.right-contato h4{
+    font-size: 40px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.right-contato p{
+    font-size: 16px;
+    color: #FFF;
+}
+
+.endereco{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
