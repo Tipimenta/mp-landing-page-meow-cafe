@@ -155,7 +155,7 @@ ul li a{
     margin-bottom: 16px;
 }
 
-.header-drinks p, a{
+.header-drinks p, .header-drinks a{
     color: #3C0E0E;
     font-size: 16px;
     font-weight: 400;
@@ -358,12 +358,14 @@ h2{
     color: #4D1D1D;
     font-weight: bold;
     width: 449px;
+    line-height: 55.5px;
 }
 
 .text-right{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 339px;
 }
 .apreciar{
     font-size: 16px;
@@ -436,17 +438,26 @@ h2{
     background: linear-gradient(#8F423D, #FFFFFF);
     position: relative;
     top: -52px;
-    right: 172px;
+    right: 170px;
 
 }
 
+.retangulo-contato hr{
+    width: 51.41px;
+    border: 1px solid #FFF;
+}
+
+.right-contato hr{
+    width: 100%;
+    border: 1px solid #FFF;
+}
 .right-contato-text{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 373.89px;
-    height: 279px;
-    padding: 25px;
+    height: 320px;
+    padding: 30px 40px;
 }
 .right-contato h4{
     font-size: 40px;
@@ -463,4 +474,45 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+}
+
+footer{
+    margin-top: 120px;
+}
+
+.container-footer{
+    padding: 20px;
+    margin: 0 auto;
+    border-top: 2px solid #d8d8d8;
+    width: 1178px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.informacoes{
+    width: 305px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.link-uteis, .institucional{
+    width: 305px;
+    margin-top: 80px;
+}
+
+.informacoes h3, .link-uteis h3, .institucional h3{
+    font-size: 20px;
+    color: #282828;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.informacoes p, .link-uteis ul li a, .institucional ul li a{
+    font-size: 16px;
+    color: #3C0E0E;
+    font-weight: 400;
 }
