@@ -566,7 +566,7 @@ footer {
 
 @media (max-width: 390px) {
   .logo img {
-    width: 117px;
+    width: 90px;
     height: 104px;
   }
 
@@ -606,6 +606,7 @@ footer {
 
   .top {
     width: 390px;
+    display: block;
   }
 
   .btn-primary{
@@ -639,8 +640,9 @@ footer {
     width: 390px;
     height: 555px;
     position: relative;
-    top: -130px;
-    right: 440px;
+    top: -501px;
+    right: 57px;
+    z-index: -2;
   }
 
   .navbar {
@@ -717,6 +719,10 @@ footer {
   .image-croissants img {
     width: 296px;
     margin: 0 auto;
+  }
+
+  .navbar-right ul li img{
+    display: block;
   }
 
   .retangulo {
