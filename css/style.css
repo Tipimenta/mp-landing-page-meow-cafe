@@ -385,8 +385,7 @@ h2 {
   width: 938px;
   display: flex;
   justify-content: space-between;
- 
-}
+ }
 
 .title-sobre {
   font-size: 20px;
@@ -585,10 +584,10 @@ footer {
     display: none;
   }
   .navbar-right{
-    width: 50%;
+    width: 100%;
   }
 .navbar-right ul{
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .navbar-right ul li{
@@ -641,12 +640,12 @@ footer {
     height: 555px;
     position: relative;
     top: -501px;
-    right: 57px;
+    right: 26px;
     z-index: -2;
   }
 
   .navbar {
-    width: 390px;
+    width: 380px;
   }
 
   .top{
